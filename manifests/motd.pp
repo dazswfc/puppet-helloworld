@@ -11,6 +11,6 @@ class helloworld::motd {
   owner   => 'root',
   group   => 'root',
   mode    => '0644',
-  content => "This is a test of r10k\n",
+  content => "This is a test for r10k\n",
   }
 }
